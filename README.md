@@ -60,7 +60,7 @@ uvicorn app.main:app --reload
 ---
 
 ## 👥 **Project By**
-
+```bash
 - Hitesh Nimba Mali
 ---
 
