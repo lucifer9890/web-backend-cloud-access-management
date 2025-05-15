@@ -1,0 +1,56 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python virtual environments
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# FastAPI / Uvicorn specific
+*.log
+*.sqlite3
+instance/
+cloud_access.db
+
+# Pydantic cache (if using V2)
+.pdm.toml
+__pydantic__/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment and secrets
+.env
+.env.*
+
+# Testing artifacts
+coverage/
+htmlcov/
+.pytest_cache/
+.cache/
+
+# OS + miscellaneous
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Bytecode and compiled files
+*.egg
+*.egg-info/
+dist/
+build/
+*.bak
+*.tmp
+
+# DB migration files (if using alembic/migrations)
+migrations/
