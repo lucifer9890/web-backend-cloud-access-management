@@ -26,7 +26,8 @@ Visit the auto-generated docs:
 | `/api-access`          | Define accessible APIs           |
 | `/user-subscriptions`  | Assign/view user plans           |
 | `/usage-logs`          | Track API usage                  |
-
+| `/auth-router`         | Authentication                   |
+| `/cloud-services`      | cloud APIs                       |
 ---
 
 ## 🧱 Setup Instructions
@@ -56,26 +57,10 @@ python init_db.py
 5. **Start the server**
 ```bash
 uvicorn app.main:app --reload
-```
-
 ---
 
-## 📹 Demo Recording Tips
+## 👥 **Project By**
 
-- Run `uvicorn` and show Swagger UI
-- Create a plan, add permissions, assign to a user
-- Simulate API usage and show automatic access blocking
-- Conclude with usage tracking and reporting
-
+- Hitesh Nimba Mali
 ---
 
-## 👥 Team Members
-
-- Hitesh
-- [Add more here]
-
----
-
-## 📄 License
-
-This project is for educational use only.
