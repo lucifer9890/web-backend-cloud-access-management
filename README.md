@@ -41,7 +41,7 @@ cd cloud-access-management
 2. **Create and activate virtual environment**
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+.\env\Scripts\activate
 ```
 
 3. **Install dependencies**
@@ -58,6 +58,8 @@ python init_db.py
 ```bash
 uvicorn app.main:app --reload
 ---
+
+
 
 ## 👥 **Project By**
 ```bash
