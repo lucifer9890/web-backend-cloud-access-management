@@ -57,12 +57,10 @@ python init_db.py
 5. **Start the server**
 ```bash
 uvicorn app.main:app --reload
----
 
-
-
-## 👥 **Project By**
+```
+## 👥 __Project By__ 
 ```bash
-- Hitesh Nimba Mali
+- Hitesh Mali
 ---
 
