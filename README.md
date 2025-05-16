@@ -60,7 +60,5 @@ uvicorn app.main:app --reload
 
 ```
 ## 👥 **Project By** 
-```bash
-- __Hitesh Mali__
 
-
+- **Hitesh Mali**
