@@ -59,8 +59,8 @@ python init_db.py
 uvicorn app.main:app --reload
 
 ```
-## 👥 __Project By__ 
+## 👥 **Project By** 
 ```bash
-- Hitesh Mali
----
+- __Hitesh Mali__
+
 
